@@ -8,7 +8,7 @@ team modify ctf_blue nametagVisibility always
 # Make blue jail
 team add ctf_jail_blue "Blue Jailed Players"
 team modify ctf_jail_blue color blue
-team modify ctf_jail_blue prefix {"text":"[J] ","color":"dark_purple"}
+team modify ctf_jail_blue suffix {"text":" |#|","color":"gray"}
 team modify ctf_jail_blue nametagVisibility always
 
 # Make red team
@@ -19,7 +19,7 @@ team modify ctf_red nametagVisibility always
 # Make red jail
 team add ctf_jail_red "Red Jailed Players"
 team modify ctf_jail_red color dark_red
-team modify ctf_jail_red prefix {"text":"[J] ","color":"dark_purple"}
+team modify ctf_jail_red suffix {"text":" |#|","color":"gray"}
 team modify ctf_jail_red nametagVisibility always
 
 # Scoreboard values to handle player interaction 

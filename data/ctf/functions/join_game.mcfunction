@@ -1,0 +1,2 @@
+execute as @p[team=,distance=..6,limit=1] if score #team ctf_team matches 0 as @s run function ctf:assign_red
+execute as @p[team=,distance=..6,limit=1] if score #team ctf_team matches 1 as @s run function ctf:assign_blue
