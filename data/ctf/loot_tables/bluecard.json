@@ -1,0 +1,38 @@
+{
+    "pools": [
+        {
+          "rolls": 1,
+          "entries": [
+            {
+                "type": "item",
+                "name": "minecraft:flower_banner_pattern",
+            "functions": [
+              {
+                "function": "minecraft:set_name",
+                "name": "§9Get out of Jail Card"
+              },
+              {
+                "function": "set_nbt",
+                "tag": "{ctf:1,blue:1}"
+              },
+              {
+                "function": "minecraft:set_lore",
+                "lore": [
+                  {
+                    "text": "Tag a jailed teammate with this card within 20",
+                    "color": "yellow",
+                    "italic": true
+                  },
+                  {
+                    "text": "blocks of your flag to get them back in the game!",
+                    "color": "yellow",
+                    "italic": true
+                  }
+                ]
+              }
+            ]
+            }
+          ]
+        }
+    ]
+  }
